@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseExtension\Class1.cs" />
     <Compile Include="DatabaseHelper.cs" />
     <Compile Include="DatabaseServicesHelper\CurveHelper.cs" />
     <Compile Include="DatabaseServicesHelper\DimensionHelper.cs" />
@@ -72,5 +73,6 @@
     <Compile Include="RotateDirection.cs" />
     <Compile Include="TransactionHost.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
